@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastro de Notas</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Cadastro de Notas dos Alunos</h1>
+
+  <div>
+    <label for="novoAluno">Nome do novo aluno:</label>
+    <input type="text" id="novoAluno" required>
+    <button id="cadastrarAluno">Cadastrar Aluno</button>
+  </div>
+
+  <form id="formulario">
+    <label for="aluno">Aluno:</label>
+    <select id="aluno" required></select>
+
+    <label for="nota1">Nota 1:</label>
+    <input type="number" id="nota1" required step="0.1" min="0" max="10">
+
+    <label for="nota2">Nota 2:</label>
+    <input type="number" id="nota2" required step="0.1" min="0" max="10">
+
+    <button type="submit">Salvar Notas</button>
+  </form>
+
+  <div id="resultado"></div>
+
+  <h2>Lista de Alunos</h2>
+  <ul id="lista-alunos"></ul>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
