@@ -1,0 +1,41 @@
+# node_modules: dependências instaladas com npm/yarn
+node_modules/
+
+# coverage: gerado por Jest ao rodar os testes com --coverage
+coverage/
+
+# arquivos de log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# arquivos de ambiente
+.env
+.env.local
+.env.*.local
+
+# cache do Jest
+jest-cache/
+jest-config/
+
+# diretórios temporários
+.tmp/
+temp/
+dist/
+build/
+
+# sistema operacional
+.DS_Store  # macOS
+Thumbs.db  # Windows
+
+# VS Code
+.vscode/
+
+# arquivos gerados por testes ou ferramentas
+*.lcov
+*.tsbuildinfo
+
+# backups ou temporários
+*.bak
+*.swp
+*.swo
