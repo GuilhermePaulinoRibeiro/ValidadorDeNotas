@@ -1,7 +1,7 @@
 
 # Validador de Notas
 
-[![CI - Testes e SonarCloud](https://github.com/GuilhermePaulinoRibeiro/ValidadorDeNotas/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/GuilhermePaulinoRibeiro/ValidadorDeNotas/actions/workflows/main.yml)
+[![CI - Testes e SonarCloud](https://github.com/GuilhermePaulinoRibeiro/ValidadorDeNotas/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/GuilhermePaulinoRibeiro/ValidadorDeNotas/actions/workflows/ci.yml)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=GuilhermePaulinoRibeiro_ValidadorDeNotas&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=GuilhermePaulinoRibeiro_ValidadorDeNotas)
 
 Projeto de formulário HTML para validação de notas, com integração contínua utilizando **Jest**, **SonarCloud** e **GitHub Actions**.
