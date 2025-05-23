@@ -1,49 +1,46 @@
+
 # Validador de Notas
 
-![GitHub Actions](https://github.com/GuilhermePaulinoRibeiro/ValidadorDeNotas/actions/workflows/main.yml/badge.svg)
-![SonarCloud Coverage](https://sonarcloud.io/api/project_badges/measure?project=GuilhermePaulinoRibeiro_ValidadorDeNotas&metric=coverage)
-![SonarCloud Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=GuilhermePaulinoRibeiro_ValidadorDeNotas&metric=alert_status)
+[![CI - Testes e SonarCloud](https://github.com/GuilhermePaulinoRibeiro/ValidadorDeNotas/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/GuilhermePaulinoRibeiro/ValidadorDeNotas/actions/workflows/main.yml)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=GuilhermePaulinoRibeiro_ValidadorDeNotas&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=GuilhermePaulinoRibeiro_ValidadorDeNotas)
 
-## Sobre o projeto
+Projeto de formulário HTML para validação de notas, com integração contínua utilizando **Jest**, **SonarCloud** e **GitHub Actions**.
 
-Este projeto tem como objetivo validar notas escolares com base em critérios definidos. Utiliza testes automatizados com Jest e integração contínua com GitHub Actions e SonarCloud para garantir a qualidade do código.
+## 🔗 Link do projeto no SonarCloud
 
-## Como executar o projeto localmente
+[SonarCloud - GuilhermePaulinoRibeiro_ValidadorDeNotas](https://sonarcloud.io/summary/new_code?id=GuilhermePaulinoRibeiro_ValidadorDeNotas)
 
-1. Clone o repositório:
+---
+
+## 🚀 Como executar o projeto localmente
+
+1. **Clone o repositório:**
 
    ```bash
    git clone https://github.com/GuilhermePaulinoRibeiro/ValidadorDeNotas.git
    cd ValidadorDeNotas
    ```
 
-2. Instale as dependências do projeto:
+2. **Instale as dependências:**
 
    ```bash
    npm install
    ```
 
-3. Execute os testes com cobertura:
+3. **Execute os testes com cobertura:**
 
    ```bash
-   npm test -- --coverage
+   npm test
    ```
 
-4. (Opcional) Para rodar a análise do SonarCloud localmente:
+4. **Abra o formulário no navegador:**
 
-   Certifique-se de ter o `sonar-scanner` instalado globalmente e de configurar a variável de ambiente `SONAR_TOKEN`.
-
-   ```bash
-   sonar-scanner
-   ```
-
-## Imagem do formulário preenchido e resultado exibido
-
-Adicione uma imagem do formulário preenchido no caminho `docs/formulario-preenchido.png` e ela será exibida aqui:
-
-![Formulário preenchido](docs/formulario-preenchido.png)
+   Basta abrir o arquivo `index.html` em um navegador moderno (Chrome, Firefox, etc.).
 
 ---
 
-**🔗 Link do projeto no SonarCloud:**  
-[https://sonarcloud.io/dashboard?id=GuilhermePaulinoRibeiro_ValidadorDeNotas](https://sonarcloud.io/dashboard?id=GuilhermePaulinoRibeiro_ValidadorDeNotas)
+## 🖼️ Imagem do formulário preenchido
+
+> Substitua a imagem abaixo por um print real do formulário preenchido com o resultado visível.
+
+![Imagem do formulário preenchido](docs/formulario-preenchido.png)
