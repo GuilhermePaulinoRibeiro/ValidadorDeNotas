@@ -41,6 +41,5 @@ Projeto de formulário HTML para validação de notas, com integração contínu
 
 ## 🖼️ Imagem do formulário preenchido
 
-> Substitua a imagem abaixo por um print real do formulário preenchido com o resultado visível.
 
 ![Imagem do formulário preenchido](docs/formulario-preenchido.png)
